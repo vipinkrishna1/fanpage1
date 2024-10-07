@@ -1,0 +1,429 @@
+.main-container{
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: white ;
+    margin: 0px;
+
+}
+.navbar{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(5, 42, 66)  ;
+    position: relative;
+    height: 50px;
+}
+.navbar #lists{
+    display: flex;
+    gap: 30px;
+    color: white;
+    position: relative;
+    font-size: 1rem;
+}
+.navbar #lists .list {
+    list-style-type: none;
+    font-size: .8rem;
+}
+.navbar #lists .list .list-anchor{
+text-decoration: none;
+color:white;
+font-weight: 600;
+font-style: "Roboto Condensed", sans-serif;
+}
+.menu-icon{
+    display: none;
+}
+.menu-icon{
+    color: black;
+    font-size: x-large;
+    display: none;
+}
+#checkbox{
+    display: none;
+}
+#second-container {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    position: absolute;
+    font-weight: 600;
+    background-color: white;
+}
+
+
+.imagediv {
+    margin-left: 700px;
+    margin-top: 20px;
+
+}
+
+#image1 {
+    width: 120px;
+    
+}
+.infobox {
+    margin-left: 1000px;
+    margin-top: -100px;
+
+}
+
+.third-container {
+    width: 100%;
+    height: 50px;
+    
+}
+
+.image2 {
+    margin-top: 150px;
+    width: 100%;
+    
+}
+.iconcollection {
+    display: block;
+    justify-content: center;
+    margin-top: -15%;
+    padding-left: 95%;
+    position: absolute;
+    
+}
+
+.iconnn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    justify-content: center;
+    align-items: right;
+    margin: 0px 10px;
+}
+.brands {
+    color: black;
+    font-size: 2rem;
+}
+.iconnn:hover .brands {
+    color: antiquewhite;
+    animation: rotate;
+}
+#Details {
+    width: 500px;
+    height: 100vh;
+    margin-top: 1200px;
+    
+
+}
+
+.imagemerge {
+    position: absolute;
+    
+}
+
+#ten {
+    height:700px;
+    width: 500px;
+    margin-left: 40px;
+}
+
+.imagem {
+    height: 600px;
+    width: 300px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+#neytwo {
+    margin-left: 200px;
+}
+
+.features {
+    
+    margin-top: -800px;
+    margin-left: 700px;
+
+}
+
+#mainhead {
+    padding-top: 40px;
+    color: black;
+    font-family: "Mitr", sans-serif;
+    ;
+}
+
+.sub {
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.subheads1 {
+    opacity: 0.5;
+    color: gray;
+
+    padding: 0px;
+    font-family: "Quicksand", sans-serif;
+
+
+}
+
+.subheads2 {
+
+    color: black;
+    padding-left: 100px;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+.paragraph {
+    font-size: 1rem;
+    color: black;
+    padding-top: 100px;
+    font-family: "Quicksand", sans-serif;
+    line-height: 2;
+}
+
+.space {
+    text-align: center;
+    color: black;
+}
+.videoheading {
+    padding-top: 100px;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(5, 42, 66) ;
+}
+
+.videos-col-1 {
+    margin-top: 100px;
+    margin-left: 70px;
+    display: flex;
+    gap: 100px;
+}
+
+.videos-col-2 {
+    margin-top: 100px;
+    margin-left: -25px;
+    display: flex;
+    gap: 100px;
+}
+.color{
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    margin-top: 100px;
+    margin-left: 50%;
+    background-color: rgb(5, 42, 66);
+    width: 150px;
+    height: 60px;
+    color: white;
+    font-size: larger;
+}
+.nike{
+    width: 150px;
+    height: 70px;
+    margin-left: 45%;
+    margin-top: 150px;
+}
+.qatar{
+    margin-left: 55%;
+    width: 150px;
+    height: 70px;
+    margin-top: -70px;
+}
+#footer{
+    margin-top: 50px;
+    padding-top: 50px;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(5, 42, 66);
+    display: flex;
+    
+}
+
+.footerh1 {
+    color: white;
+    padding: 10px;
+    font-size: 0.8rem;
+
+}
+
+.footer1 {
+    display: block;
+    color: white;
+    padding: 10px;
+    font-size: 0.8rem;
+
+}
+
+.footerfrist {
+    padding-left: 10%;
+}
+
+.footersecond {
+    padding-left: 5%;
+}
+
+.footerthird {
+    padding-left: 5%;
+}
+
+.footerforth {
+    padding-left: 5%;
+}
+@media (max-width:990px) {
+    html,body{
+        position: absolute;
+        margin-top:0px;
+    }
+    .navbar #lists {
+        width: 200px;
+        height: 100vh;
+        padding-top: 20px;
+        padding-left: 10px;
+        position: absolute;
+        margin-top: 750px;
+        margin-left: -30px;
+        flex-direction: column;
+        background-color: rgb(5, 42, 66);
+        justify-content: space-between;
+        gap: 80px;
+        display: none;
+    }
+    .list{
+        padding: 20px;
+    }
+    .menu-icon{
+        display: flex;}
+    #closeicon {
+        display: none;
+    }
+    #checkbox:checked~ .menu-icon #menuicon
+    {
+        display:none;
+    }
+    #checkbox:checked~ .menu-icon #closeicon
+    {
+        display:block;
+       
+    }
+    #lists{
+        display: none;
+    }
+    #checkbox:checked~ #lists{
+        display: block;
+        
+    }
+
+#second-container {
+    margin-left:200px ;
+    width:600px ;
+    height: 20vh;
+    display: flex;
+    position: absolute;
+    font-weight: 600;
+    background-color: white;
+}
+
+
+#second-container .imagediv{
+    margin-left: 200px;
+    margin-top: 20px;
+    
+}
+.iconcollection{
+    display: block;
+    margin-left: -20px;
+    margin-top: -20%;
+    position: absolute;
+}
+.forth-container{
+    margin-left: 100px;
+}
+.imagemerge {
+    position: absolute;
+    margin-top: -550px;
+    
+}
+
+
+#ten {
+    height:350px;
+    width:250px;
+    margin-left: 10px;
+}
+
+.imagem {
+    height: 350px;
+    width: 200px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+#neytwo {
+    margin-left: 0px;
+}
+
+.features {
+    width: 30%;
+    margin-top: -1350px;
+    margin-left: 300px;
+
+}
+
+#mainhead {
+    padding-top: 40px;
+    font-size: 1rem;
+    color: black;
+    font-family: "Mitr", sans-serif;
+    ;
+}
+
+.sub {
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.subheads1 {
+    opacity: 0.5;
+    color: gray;
+    padding: 0px;
+    font-size: 0.5rem;
+    font-family: "Quicksand", sans-serif;
+
+
+}
+
+.subheads2 {
+    font-size: 0.5rem;
+    color: black;
+    padding-left: 100px;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+.paragraph {
+    width: 100%;
+    font-size: 0.55rem;
+    color: black;
+    padding-top: 40px;
+    font-family: "Quicksand", sans-serif;
+    line-height: 1.5;
+}
+
+
+}
+
+    
+
+    
